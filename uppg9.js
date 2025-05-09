@@ -15,17 +15,13 @@ function uppg9 (){
         
             if (number % 2 === 0){
                 console.log(number, "jämt")
-                result.push([number, "jämt"])
             } else {
                 console.log(number, "udda")
-                result.push([number, "udda"])
             }
         }
-        return result
 
     }
     testArray = [1, 5, 8, 20, 45, 2, 44, 7]
-    return sort(testArray)
     
 }
 uppg9()
