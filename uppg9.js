@@ -14,11 +14,11 @@ function uppg9 (){
         for (number of numbersArray){
         
             if (number % 2 === 0){
-                console.log(number + " är udda")
-                result.push([number + "jämt"])
+                console.log(number + " är jämt")
+                result.push([number, "jämt"])
             } else {
                 console.log(number + " är udda")
-                result.push([number + "udda"])
+                result.push([number, "udda"])
             }
         }
         return result
