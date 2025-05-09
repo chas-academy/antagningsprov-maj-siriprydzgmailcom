@@ -22,7 +22,7 @@ function uppg8(){
     function ageCheck(persons){
         for(let person of persons){
             if(person.age > 30){
-                console.log(person)
+                console.log(person.name)
             }
         }
     

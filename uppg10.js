@@ -29,7 +29,7 @@ function uppg10(){
 
   }
 
-  console.log(sort(numbers))
+ sort(numbers)
 
   }
   uppg10()
