@@ -14,16 +14,17 @@ function uppg9 (){
         for (number of numbersArray){
         
             if (number % 2 === 0){
-                console.log(number + "jämt")
+                result.push([number + "jämt"])
             } else {
-                console.log(number + "udda")
+                result.push([number + "udda"])
             }
         }
         return result
 
     }
     testArray = [1, 5, 8, 20, 45, 2, 44, 7]
-    sort(testArray)
+    return sort(testArray)
+    
 }
 uppg9()
 module.exports = { uppg9 };
