@@ -29,7 +29,7 @@ function uppg10(){
 
   }
 
- sort(numbers)
+ return sort(numbers)
 
   }
   uppg10()
