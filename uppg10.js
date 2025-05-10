@@ -23,13 +23,13 @@ function uppg10(){
           } else {
             result.other.push(number)
           }
-        }
+    }
 
-      return result
+  return result
 
   }
 
- return sort(numbers)
+  console.log(sort(numbers))
 
   }
   uppg10()

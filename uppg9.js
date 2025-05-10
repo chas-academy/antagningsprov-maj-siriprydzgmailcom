@@ -9,20 +9,17 @@ function uppg9 (){
     // anropa funktionen och skicka med en array som argument
 
     function sort (numbersArray) {
-        let result = []
 
         for (number of numbersArray){
-        
             if (number % 2 === 0){
                 console.log(number, "jämt")
             } else {
                 console.log(number, "udda")
             }
         }
-
     }
     testArray = [1, 5, 8, 20, 45, 2, 44, 7]
-    
+    sort(testArray)
 }
 uppg9()
 module.exports = { uppg9 };
